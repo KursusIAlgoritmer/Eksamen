@@ -1,0 +1,32 @@
+Ved implementation af en data-struktur som f.eks. en "stak" vha. et simpelt array, 
+bliver man nødt engang imellem at forstørrer arrayet for at få plads til nye elementer.
+Hvis fordobler arrayets størrelse hver gang arrayet bliver for lille kan vi lave følgende "amortiserede omkostningsanalyse":
+
+Antagelse:
+Lad os for nemheds skyld antage at antallet af elementer der ønskes indsat er N.
+Og N er 2^i hvor i er et Naturligt tal (1,2,3...)
+Og arrayet starter med længde = 1
+
+Eksempel:
+Vi kan da skrive følgende skema op for N=8 dvs. i = 3
+"Element nr"  viser hvilket element der indsættes
+"Array size"  viser arrayet størrelse. Det ændrer sig selvfølgeligt løbende.
+"kopier"      hver gang vi fordobler arrayets størrelse kopierer vi de oprindlige elementer ind i det nye array, 
+              "kopier" fortæller antallet af kopier
+"insert"      hvor mange elementer vi indsætter i arrayet
+
+Element nr:   1   2   3   4   5   6   7   8
+Array size:   1   2   4       8
+Kopier:           1   2       4
+insert:       1   1   1   1   1   1   1   1
+
+Beregning:
+Hvis vi måler på antallet af gange vi kopierer og insætter i arrayet, kan man udlede følgende:
+
+Omkostning kopier:              1 + 2 + 4 + ... + N/2 = N - 1 (geometrisk serie)
+Omkostning nye indsættelser:    1 + 1 + 1 + ... + 1   = N  
+
+Ialt: 2N - 1
+
+Amortiseret omkostning pr. operation: (2N - 1)/N -> 2 for N -> uendelig
+Altså er den amortiserede omkostningstid konstant
