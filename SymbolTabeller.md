@@ -166,8 +166,9 @@ https://youtu.be/s3nFlb-HNds?t=7541\
 Morten: Hvis vi fjerner et element - kræver det nødvendigvis at alle elementer flyttes ned så hullet dækkes hvis tidligere "forskudte" elementer skal findes.\
 Troels: Nej alle elementer skal indsættes på ny (re-hashes) - fra denne tomme plads og frem!
 
+## Algoritmic Complexity Attac Java
 
-
+Anvendelse af nøgler der rammer samme hashcode...
 
 # SPØRGSMÅL 
 
