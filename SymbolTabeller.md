@@ -14,6 +14,10 @@ js, python: objekter er bare en symboltabel
 
 Generaliseret array - index kan være alt
 
+## Anvendelser
+internet url er nøglen - ip er værdien</br>
+
+
 ## API
 
 Vigtigste metoder:
@@ -74,5 +78,6 @@ while(!StIn.next()){
     - Gennemsnit: opslag/insert log2(N) og N/2 </br>  (da arrayet er sorteret er tiden for insert N/2, da vi skal skubbe ellemeneter gennemsnitligt N/2)
     - key interface : compareTo
 
-## Anvendelser
-internet url er nøglen - ip er værdien</br>
+## Ordnede operationer
+
+
