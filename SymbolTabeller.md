@@ -116,6 +116,9 @@ Eksempel to-komplement signed integer
 "polygenelubricants" giver 10000000000000000000000000000000 binært
 for at konvertere til det modsatte inverterer man og lægger 1 til hvilket igen giver det samme!
 
+Løses ved at fjerne det mest betydende bit.... dvs. hashCode & 07ffffffff % M
+
+
 
 
 
