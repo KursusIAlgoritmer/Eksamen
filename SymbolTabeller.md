@@ -135,7 +135,7 @@ hash-koden
 
 ### Håndtering af kollisioner - elementer rammer samme spand
 
-#### Separate chaining
+## Separate chaining
 Hver span er en "linked list symbol tabel"
 
 Gode råd:\
@@ -143,9 +143,11 @@ M bør vælges som N/4 , \
 hvis N/M >= 8 så fordobbel antal spande
 hvis N/M < 2 halver antal spande
 
+Omkostning:
+
 Java bruger separate chaining
 
-#### Linear proping
+## Linear proping
 
 hasher til et array der indeholder et element pr. plads. \
 
@@ -153,7 +155,7 @@ Insert: hvis der allerede er et element på den plads der hashes til anvendes n�
 
 Get: hvis elementet ikke er på den plads der svarer til hash-koden forsøges på den næste indtil der ikke er flere pladser.
 
-Kost : \ 
+Omkostning : \ 
 M/2 elementer koster ~3/2 displacements
 M elementer koster sart(PI * M / 8 ) displacements
 
