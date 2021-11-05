@@ -25,7 +25,7 @@ overskriver gammel værdi
 <b>value get(key)       : </b>
 returnerer null, hvis der ikke er gemt noget på denne nøgle-plads \
 
-## Implementation
+## CompareTo i java - Implementation
 
 Man kunne anvende "compareTo" hver gang man indsætter en ny værdi... giver ikke god udførselstid, men det er en mulighed\
 God praksis: Anvend imutable for at undgå at nøgler ændrer sig\
@@ -35,7 +35,7 @@ God praksis: Anvend imutable for at undgå at nøgler ændrer sig\
 Krav: Der skal eksistere en <i>ækvivalensrelation</i> for nøglerne.. så vi kan anvende equals meningsfuldt (refleksiv, transitiv, symetrisk, ikke-null)\ 
 I Java skal vi pga. klassehierakiet undersøge om objekterner er samme type, om objektet er det samme og om 
 
-## Eksempler
+## Kode eksempler på anvendelse
 
 ```java
 //Eksempel på en frequency counter
@@ -63,7 +63,11 @@ while(!StIn.next()){
 
 ```
 
+## Implementation
 
+- Linked list implementation
+    - WorstCase : opslag/insert N
+    - Gennemsnit: opslag/insert N/2 og N (insert er altid N, da vi skal løbe alle elementer igennem)
 
 
 ## Anvendelser
