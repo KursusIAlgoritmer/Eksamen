@@ -65,10 +65,12 @@ while(!StIn.next()){
 
 ## Implementation
 
-- Linked list implementation
+- Ikke sorteret liste - f.eks. linked list implementation
     - WorstCase : opslag/insert N
     - Gennemsnit: opslag/insert N/2 og N (insert er altid N, da vi skal løbe alle elementer igennem)
-
+- Sorteret liste:
+    - WorstCase : opslag/insert log2(N) og N
+    - Gennemsnit: opslag/insert log2(N) og N (insert er altid N, da vi skal løbe alle elementer igennem)
 
 ## Anvendelser
 internet url er nøglen - ip er værdien</br>
