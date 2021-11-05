@@ -90,7 +90,7 @@ Hashing er en funktion der skal oversætte vores nøgle til et heltal:\
   hash("its") = 3 //collision !!!
 ```
 
-### Hash funktioner - klassiske space versus time tradeoff
+### Hash funktioner - og javas hash code
 No space limit : brug hashing værdi som indeks
 No time limit: collisioner med efterfølgende søgning
 Space and Time limit: hashing real world
@@ -107,6 +107,8 @@ eksempel java hashcode String: for(all chars s) hash = s[i] + 31 * hash; (beregn
 
 Java gør det ikke rigtigt ??? bare oversætter til heltal???
 
+### Konvertere hashcode til en hash funktion
+
 Hash code: -2^31 og 2^31 -1 \
 Hash funktion: 0 til M -1 hvor M er størrelsen på ens array
 
@@ -119,6 +121,17 @@ for at konvertere til det modsatte inverterer man og lægger 1 til hvilket igen 
 Løses ved at fjerne det mest betydende bit.... dvs. hashCode & 07ffffffff % M\
 dvs. den bit der repræsenterer de negative tal
 
+### Fordeling af elementer i en hash - tabel
+
+- Vi rammer samme spand efter ~ sqrt( PI * M / 2) kast
+
+- Efter M * log2(M) kast inder holder hver spand mere end 1 bold
+
+- Efter M kast indeholder den mest fyldte log2(M)/log2(log2(M))
+
+https://youtu.be/s3nFlb-HNds?t=4725
+
+hash-koden 
 
 
 
