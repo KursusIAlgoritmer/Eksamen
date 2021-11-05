@@ -133,6 +133,25 @@ https://youtu.be/s3nFlb-HNds?t=4725
 
 hash-koden 
 
+### Håndtering af kollisioner - elementer rammer samme spand
+
+#### Separate chaining
+Hver span er en "linked list symbol tabel"
+
+Gode råd:\
+M bør vælges som N/4 , \
+hvis N/M >= 8 så fordobbel antal spande
+hvis N/M < 2 halver antal spande
+
+# SPØRGSMÅL 
+ligeglad med de gamle hashCodes.... men så vil to hash værdier jo ikke mappe til samme spand????
+
+hashCode : key.hashCode() & Integer.MAX % M
+
+SVAR : Troels løber faktisk alle elementer igennem og indsætter dem i den nye hash-tabel
+
+Se her 1:39:21
+https://youtu.be/s3nFlb-HNds?t=5961 
 
 
 
