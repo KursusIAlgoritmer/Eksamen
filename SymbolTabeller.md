@@ -170,6 +170,9 @@ Troels: Nej alle elementer skal indsættes på ny (re-hashes) - fra denne tomme 
 
 Anvendelse af nøgler der rammer samme hashcode...
 
+# SET INDTIL 2:06
+
+
 # SPØRGSMÅL 
 
 ##2 spørgsmål
