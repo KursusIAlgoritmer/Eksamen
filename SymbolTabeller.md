@@ -35,6 +35,33 @@ God praksis: Anvend imutable for at undgå at nøgler ændrer sig\
 Krav: Der skal eksistere en <i>ækvivalensrelation</i> for nøglerne.. så vi kan anvende equals meningsfuldt (refleksiv, transitiv, symetrisk, ikke-null)\ 
 I Java skal vi pga. klassehierakiet undersøge om objekterner er samme type, om objektet er det samme og om 
 
+## Eksempler
+
+```java
+//Eksempel på en frequency counter
+
+ST<Key, Value> st = new ST<Key,Value>();
+
+while(!StIn.next()){
+  Key   k = read.next();
+
+  if(st.get(k) == null){
+   st.put(k,1);
+  }else{
+   st.put(k, st.get(k) +1);
+  }
+}
+ String max = "";
+ st.put("max",0); //bruges kun første gang... vi kunne vel bare have sat en tilfældig nøgle istedet for "max"
+ for(Key k: st.keys()){
+   if(st.get(max) <st.get(k)){
+       max = k; //sætter max til ny nøgle!!
+   }
+ }
+ 
+ println("Max frequency:" + max + " " + st.get(max));
+
+```
 
 
 
