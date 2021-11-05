@@ -143,7 +143,36 @@ M bør vælges som N/4 , \
 hvis N/M >= 8 så fordobbel antal spande
 hvis N/M < 2 halver antal spande
 
+Java bruger separate chaining
+
+#### Linear proping
+
+hasher til et array der indeholder et element pr. plads. \
+
+Insert: hvis der allerede er et element på den plads der hashes til anvendes næste plads osv.
+
+Get: hvis elementet ikke er på den plads der svarer til hash-koden forsøges på den næste indtil der ikke er flere pladser.
+
+Kost : \ 
+M/2 elementer koster ~3/2 displacements
+M elementer koster sart(PI * M / 8 ) displacements
+
+Gode råd : Tabel størrelse på N/M = 1/2
+
+Video : 2:05:41
+https://youtu.be/s3nFlb-HNds?t=7541
+Morten: Hvis vi fjerner et element - kræver det nødvendigvis at alle elementer flyttes ned så hullet dækkes hvis tidligere "forskudte" elementer skal findes.
+Troels: Nej alle elementer skal indsættes på ny (re-hashes) - fra denne tomme plads og frem!
+
+
+
+
 # SPØRGSMÅL 
+
+##2 spørgsmål
+Symbol tabel med en sorteret liste koster vel gennemsnitlig N/2 for både insert og opslag 
+
+##1 spørgsmål
 ligeglad med de gamle hashCodes.... men så vil to hash værdier jo ikke mappe til samme spand????
 
 hashCode : key.hashCode() & Integer.MAX % M
@@ -152,6 +181,7 @@ SVAR : Troels løber faktisk alle elementer igennem og indsætter dem i den nye 
 
 Se her 1:39:21
 https://youtu.be/s3nFlb-HNds?t=5961 
+
 
 
 
