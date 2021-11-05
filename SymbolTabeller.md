@@ -63,14 +63,16 @@ while(!StIn.next()){
 
 ```
 
-## Implementation
+## Implementation kørselstid
 
 - Ikke sorteret liste - f.eks. linked list implementation
     - WorstCase : opslag/insert N
     - Gennemsnit: opslag/insert N/2 og N (insert er altid N, da vi skal løbe alle elementer igennem)
+    - key interface : equals
 - Sorteret liste:
-    - WorstCase : opslag/insert log2(N) og N
-    - Gennemsnit: opslag/insert log2(N) og N (insert er altid N, da vi skal løbe alle elementer igennem)
+    - WorstCase : opslag/insert log2(N) og N </br>   (insert er i værste fald N, da vi i værste fald skal skubbe alle elementer hvis pladsen der skal insættes er 0)
+    - Gennemsnit: opslag/insert log2(N) og N/2 </br>  (da arrayet er sorteret er tiden for insert N/2, da vi skal skubbe ellemeneter gennemsnitligt N/2)
+    - key interface : compareTo
 
 ## Anvendelser
 internet url er nøglen - ip er værdien</br>
