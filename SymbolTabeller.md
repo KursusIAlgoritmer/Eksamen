@@ -1,6 +1,6 @@
 # Symbol tabeller
 
-## inledning
+## Indledning
 Er abstraktion der er defineret ved man kan gemme en værdi, der er tilknyttet en bestemt nøgle.
 Hoved operationer :
 
@@ -79,5 +79,43 @@ while(!StIn.next()){
     - key interface : compareTo
 
 ## Ordnede operationer
+
+Ikke færdigt...
+
+## Hash tabeller
+
+Hashing er en funktion der skal oversætte vores nøgle til et heltal:\
+```
+  hash("it") = 3
+  hash("its") = 3 //collision !!!
+```
+
+### Hash funktioner - klassiske space versus time tradeoff
+No space limit : brug hashing værdi som indeks
+No time limit: collisioner med efterfølgende søgning
+Space and Time limit: hashing real world
+
+Ideal : 
+ - nøgler skal fordeles ligeligt over alle tabel index
+ - nemt at beregne
+
+eksempel telefonnumre: telefonnumre bedre at bruge de sidste end de første tre ciffre \
+eksempel java-hashcode: java hash-code returnere altid et 32-bit heltal - returnere som default objektets id \
+eksempel java hashcode Integer: værdien \
+eksempel java hashcode Double: bits^(bits>>>32) \
+eksempel java hashcode String: for(all chars s) hash = s[i] + 31 * hash; (beregner den og gemmer den i en instans variable for performance)
+
+Java gør det ikke rigtigt ??? bare oversætter til heltal???
+
+Hash code: -2^31 og 2^31 -1 \
+Hash funktion: 0 til M -1 hvor M er størrelsen på ens array
+
+Vi kan fikse hash-code med Math.abs(hashCode) % M
+
+Eksempel to-komplement signed integer
+"polygenelubricants" giver 10000000000000000000000000000000 binært
+for at konvertere til det modsatte inverterer man og lægger 1 til hvilket igen giver det samme!
+
+
 
 
