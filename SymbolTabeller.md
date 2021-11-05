@@ -8,6 +8,8 @@ hente en værdi - for en given nøgle
 
 Også kendt som "dictionaries", "maps", "acossiative arrays" \
 java : treemap , hashmap
+php: arrays er en wrapper for en symboltabel
+js, python: objekter er bare en symboltabel
 
 Generaliseret array - index kan være alt
 
