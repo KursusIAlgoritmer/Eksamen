@@ -36,3 +36,7 @@ Hvis vi hver gang pivot elemetet skal placeres,- placerer den i midten...
 ## Worst Case
 
 Hvis listen allerede er sorteret
+
+## Såkaldt Las Vegas algoritme.
+
+Den er garanteret at være korrekt, men undførselstiden er afhængig af om indholdet er randomizeret
