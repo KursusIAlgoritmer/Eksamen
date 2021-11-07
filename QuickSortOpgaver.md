@@ -85,3 +85,7 @@ p     j i
 
 </pre>
 
+## 2.3.4 
+Suppose that the initial random shuffle is omitted. Give six arrays of ten elements
+for which Quick.sort() uses the worst-case number of compares
+
