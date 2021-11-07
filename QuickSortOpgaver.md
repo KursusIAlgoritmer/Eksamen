@@ -3,16 +3,19 @@
 ## Opgave 2.3.2 
 Show, in the style of the quicksort trace given in this section, how quicksort sorts
 the array E A S Y Q U E S T I O N (for the purposes of this exercise, ignore the
-initial shuffle).
+initial shuffle).\
+
+ABCDEFGHIJKLMNOPQRSTUVXYZ
+
 
 <pre>
 Sort 0 til hi
 Partitioning
 "E" A S Y Q U E S T I O N
- i                      j        element i < "E" tæl en op,   element j > "E" tæl en op
+    i                   j        element i < "E" tæl en op,   element j > "E" tæl en op
 
 "E" A S Y Q U E S T I O N
-    i,j                            i og j krydser, byt "E" ud med j
+    j i                            i og j krydser, byt "E" ud med j
 
  A E S Y Q U E S T I O N
 --------------------------------------------------------
@@ -22,12 +25,31 @@ Sort j+1 til hi
 Partitioning fra j+1 til hi
 
 A E "S" Y Q U E S T I O N
-     i                  j        element i < "E" tæl en op,   element j > "E" tæl en op
+        i               j        element i < "E" tæl en op,   element j > "E" tæl en op
 
-A E "S" Y Q U E S T I O N
-     i                  j        element i < "E" tæl en op,   element j > "E" tæl en op
+A E "S" N Q U E S T I O Y
+          i           j          byt rundt
+
+A E "S" N Q U E S T I O Y
+            i         j          tæl op
+
+A E "S" N Q O E S T I U Y
+            i         j          byt rundt
 
 
+A E "S" N Q O E S T I U Y
+                  i j            tæl op
+
+A E "S" N Q O E S I T U Y
+                  j i            byt rundt
+
+A E "S" N Q O E S I T U Y
+                  j i            byt rundt
+
+A E  I  N Q O E S S T U Y
+                  |              partitioning done
+------------------------------------------------------------------
+ Sort 1 til 8
  
     
 </pre>
