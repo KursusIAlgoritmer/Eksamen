@@ -42,3 +42,7 @@ Hvis listen allerede er sorteret
 Den er garanteret at være korrekt, men undførselstiden er afhængig af om indholdet er randomizeret
 
 ## Quick Sort er ikke stabil
+
+## Praktiske forbedringer
+
+Kør insertion sort ved mindre ... 
