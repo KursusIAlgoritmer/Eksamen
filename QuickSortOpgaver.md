@@ -70,5 +70,18 @@ Kan det vel blive byttet ud med alle elementer ? N gange?
 </pre>
 
 
-## Opgave 2.3.8 About how many compares will Quick.sort() make when sorting an array of
-N items that are all equal?
+## Opgave 2.3.8 
+About how many compares will Quick.sort() make when sorting an array of N items that are all equal?
+
+<pre>
+1 1 1 1 1 1 1 
+p i         j
+
+1 1 1 1 1 1 1 
+p     j i
+
+(N-1)/2 + 2*(N-1)/2 + ... compares
+
+
+</pre>
+
