@@ -89,3 +89,9 @@ p     j i
 Suppose that the initial random shuffle is omitted. Give six arrays of ten elements
 for which Quick.sort() uses the worst-case number of compares
 
+## 2.3.13 
+What is the recursive depth of quicksort, in the best, worst, and average cases?
+This is the size of the stack that the system needs to keep track of the recursive calls. See
+Exercise 2.3.20 for a way to guarantee that the recursive depth is logarithmic in the
+worst case.
+
