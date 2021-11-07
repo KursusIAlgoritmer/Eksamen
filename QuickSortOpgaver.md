@@ -59,5 +59,16 @@ sammenligner A med N,
 What is the maximum number of times during the execution of Quick.sort()
 that the largest item can be exchanged, for an array of length N ?
 
+<pre>
+ p x x x x x h ... x l  x x x x
+h bliver sorteret en gang
+højre side er nu 
+p h x ... x x
+
+hvis det højeste element ender i venstre side hver gang der laves partitioning?
+Kan det vel blive byttet ud med alle elementer ? N gange?
+</pre>
+
+
 ## Opgave 2.3.8 About how many compares will Quick.sort() make when sorting an array of
 N items that are all equal?
