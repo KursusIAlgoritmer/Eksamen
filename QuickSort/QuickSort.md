@@ -46,3 +46,6 @@ Den er garanteret at være korrekt, men undførselstiden er afhængig af om indh
 ## Praktiske forbedringer
 
 Kør insertion sort ved mindre ... 
+
+Man kan vælge medianen ,- f.eks. tage 3 tilfældige elementer og vælge det midterste
+
