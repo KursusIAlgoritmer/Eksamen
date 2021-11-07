@@ -18,4 +18,21 @@ Partioning er "in place" men man kan lave sortering med et ekstra array. ... men
 Terminating in loop:\
 det er besværligt at tjekke om "pointers" krydser
 
+Equal keeys: \
+Bedre at stoppe scans når man har ens keys
 
+Preserving randomness: \
+nødvendig for performance
+
+Alternativt tilfældigt pivot element: \
+Lidt besværligt
+
+POINTE: Gode algoritmer er bedre end super computere
+
+## Best Case
+
+Hvis vi hver gang pivot elemetet skal placeres,- placerer den i midten...
+
+## Worst Case
+
+Hvis listen allerede er sorteret
