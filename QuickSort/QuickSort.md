@@ -30,8 +30,26 @@ Lidt besværligt
 POINTE: Gode algoritmer er bedre end super computere
 
 ## Best Case
-
+N*log2(N) sammenligninger
 Hvis vi hver gang pivot elemetet skal placeres,- placerer den i midten...
+
+Eksempel 1:\
+N = 10\
+sammenligninger (første partitionering) 9  = 9 \
+sammenligninger (anden og tredje partitionering) 3 + 3 = 6  \
+2 + ... + 2 + ... = 4 \
+9 + 6 + 4 = 19 \
+10*log2(10) = 33 ???
+
+Eksempel 2:\
+N = 40 \
+39 = 39 \
+2 * 13 = 26 \
+4 * 5 = 20 \
+(2 + 1) * 5 = 15
+
+39 + 26 + 20 + 15 = 100 \
+40*log2(40)= 213
 
 ## Worst Case
 
