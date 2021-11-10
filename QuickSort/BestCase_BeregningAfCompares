@@ -1,0 +1,20 @@
+int N = 1000;
+int subArraySize = N;
+int numberOfArrays = 1;
+int compares = 0;
+
+while (subArraySize>1) {
+  println("------------------");
+  println("Number of subarrays=" + numberOfArrays);
+  println("SubaArraySize="+ subArraySize);
+  println("Compares pr subarray = " +(subArraySize-1) );
+  compares += (subArraySize-1)*numberOfArrays;
+  
+  subArraySize = (subArraySize-1)/2;
+  
+  numberOfArrays*=2;
+}
+println("-----------");
+println("Beregnet:"+ (N)*log(N)/log(2));
+println("-----------");
+println("Talt:"+compares);
