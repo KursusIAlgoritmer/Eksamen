@@ -53,14 +53,17 @@ number of self loops : ...
 
 ## Repræsentationer 
   
-* linked list repræsentation, node for hver kant 
+1 linked list repræsentation, node for hver kant 
   * ikke hensigtsmæssig ?
   
-* adjacency matrix repræsentation, VxV array
+2 adjacency matrix repræsentation, VxV array
   * fylder virkelig meget !
   
-* adjacency-list graph repræsentation, knude indexed array af lister
+3 adjacency-list graph repræsentation, knude indexed array af lister
   * plads forbrug er propertionelt med entries - faktisk er det O(V + E) ??
+  * I verkeligheden er grafer "sparse" og ikke "dense" ... derfor sparer vi plads sammenlignet med f.eks. 2
+  
+  
   
   
   
