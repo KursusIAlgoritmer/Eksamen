@@ -63,6 +63,8 @@ number of self loops : ...
   * plads forbrug er propertionelt med entries - faktisk er det O(V + E) ??
   * I verkeligheden er grafer "sparse" og ikke "dense" ... derfor sparer vi plads sammenlignet med f.eks. 2
   
+## Dybde først søgning - DFS
+  
   
   
   
