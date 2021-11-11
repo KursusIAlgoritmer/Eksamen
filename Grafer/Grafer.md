@@ -1,6 +1,6 @@
 # Grafer
 
-### Computer Science - Robert Sedgwick:
+## Computer Science - Robert Sedgwick:
 
 introductions to graphs: https://youtu.be/flhgfYu8DFo \
 graph api : https://youtu.be/NnBk8inSgqY \
@@ -33,7 +33,6 @@ Er der to "adjacency lists" for samme graf - isomorfi ?
 
 ## Graf API
 
-Repræsentationer : \
 knuder er heltal imellem 0 og V-1 \
 
 Graph API \
@@ -45,6 +44,30 @@ Iterable<Integer> adj(int v)\
 int V()\
 int E()
   
+Typhical graf-processing kode \
+------------------- \
+degree of v: hvor mange knuder er tilstødende til v \
+maxDegree of G: knude med højest grad \
+gennemsnits degree : 2 * G.E() / G.V() \
+number of self loops : ...
+
+Repræsentationer \
+------------------- \ 
+* linked list repræsentation, node for hver kant
+  * ikke hensigtsmæssig ?
+  
+* adjacency matrix repræsentation, VxV array
+  * fylder virkelig meget !
+  
+* adjacency-list graph repræsentation, knude indexed array af lister
+  * plads forbrug er propertionelt med entries
+  
+  
+  
+
+
+  
+
 
   
   
