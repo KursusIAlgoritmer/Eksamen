@@ -6,7 +6,7 @@ introductions to graphs: https://youtu.be/flhgfYu8DFo \
 graph api : https://youtu.be/NnBk8inSgqY \
 depth first search : https://youtu.be/Uj6lQWBU6jk \
 breath first search : https://youtu.be/2dFFKJM0j1E \
-connected components : https://youtu.be/BYIz7jJ-VA4\
+connected components : https://youtu.be/BYIz7jJ-VA4 \
 challenges : https://youtu.be/OD2-Ovpx6tc \
 
 ## introduktion
@@ -33,9 +33,26 @@ Er der to "adjacency lists" for samme graf - isomorfi ?
 
 ## Graf API
 
-Repræsentationer 
+Repræsentationer : \
+knuder er heltal imellem 0 og V-1 \
 
-Forbehold / Caveat 
+Graph API \
+------------------- \
+Graph(int V)\
+Graph(In in)\
+void addEdge(int v, int w)\
+Iterable<Integer> adj(int v)\
+int V()\
+int E()
+  
+
+  
+  
+
+
+
+
+
 
 
 
