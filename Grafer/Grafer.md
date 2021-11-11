@@ -31,6 +31,12 @@ Er der to "adjacency lists" for samme graf - isomorfi ?
 
 <i>Hvad er sværhedgraden for de forskellige problemer</i>
 
+## Graf API
+
+Repræsentationer 
+
+Forbehold / Caveat 
+
 
 
 
