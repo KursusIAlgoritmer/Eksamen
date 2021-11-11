@@ -9,7 +9,7 @@ breath first search : https://youtu.be/2dFFKJM0j1E \
 connected components : https://youtu.be/BYIz7jJ-VA4 \
 challenges : https://youtu.be/OD2-Ovpx6tc \
 
-## introduktion
+# introduktion
 <b>Termer:</b>\
 ikke rettet graf: \
 knuder, kanter, sti, cykel
@@ -31,7 +31,7 @@ Er der to "adjacency lists" for samme graf - isomorfi ?
 
 <i>Hvad er sværhedgraden for de forskellige problemer</i>
 
-## Graf API
+# graf API
 
 knuder er heltal imellem 0 og V-1 \
 
@@ -51,7 +51,7 @@ maxDegree of G: knude med højest grad \
 gennemsnits degree : 2 * G.E() / G.V() \
 number of self loops : ...
 
-## Repræsentationer 
+# repræsentationer 
   
 1 linked list repræsentation, node for hver kant 
   * ikke hensigtsmæssig ?
