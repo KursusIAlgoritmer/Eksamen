@@ -60,7 +60,7 @@ Repræsentationer \
   * fylder virkelig meget !
   
 * adjacency-list graph repræsentation, knude indexed array af lister
-  * plads forbrug er propertionelt med entries
+  * plads forbrug er propertionelt med entries - faktisk er det O(V + E) ??
   
   
   
