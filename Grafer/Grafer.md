@@ -51,9 +51,10 @@ maxDegree of G: knude med højest grad \
 gennemsnits degree : 2 * G.E() / G.V() \
 number of self loops : ...
 
-Repræsentationer \
-------------------- \ 
-* linked list repræsentation, node for hver kant
+Repræsentationer 
+------------------- 
+  
+* linked list repræsentation, node for hver kant 
   * ikke hensigtsmæssig ?
   
 * adjacency matrix repræsentation, VxV array
