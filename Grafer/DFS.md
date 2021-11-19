@@ -41,7 +41,7 @@ list af sammenhængende knuder index <-> indhold \
 
 PÅSTAND: 
 
-DFS vil markere alle knuder der kan nåes fra en knude v, i en tid propertionel til deres grad...
+DFS vil markere alle knuder der kan nåes fra en knude v, <b> i en tid propertionel til deres grad... </b>
 
 BEVIS: 
 
