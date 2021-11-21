@@ -1,4 +1,4 @@
-# DIGRAPH - Directed graph
+# DIGRAPH - directed graph
 
 Intro til digraph: https://youtu.be/S1xKaQIxMRo \
 digrah api: \
@@ -35,4 +35,7 @@ samme design pattern som for ikke orientered graf
 Nye metoder \
 <b>addEdge</b> : peger i en bestem retning \
 <b>reverse</b> : 
+
+Der er kun en ændring af koden ift. ikke orienterede grafer er addEdge:
+For ikke orienterede grafer skal en forbindelse/kant til føjes to steder. For en orienteret kun et sted!
 
