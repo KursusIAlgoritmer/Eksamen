@@ -1,7 +1,7 @@
 # DIGRAPH - directed graph
 
 Intro til digraph: https://youtu.be/S1xKaQIxMRo \
-digrah api: \
+digrah api: https://youtu.be/t6Gr8H2DvMI \
 digraph search: \
 topological sort: \
 strong components:
