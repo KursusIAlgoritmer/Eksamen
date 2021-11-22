@@ -80,7 +80,17 @@ Metode : indsætter alle start-knuder i køen!
 ---
 
 # Topological sort
-tasks presedence constraints 
+Topological Sort Algorithm | Graph Theory \
+WilliamFiset
+84.600 abonnenter \
+Alternativ video: https://youtu.be/eL-KzMXSXXI
+
+Sortering af Opgaver/Tasks hvor der er et forudbestemt krav til 
+rækkefølgen.
+
+Når man har fundet en topologisk rækkefølge er den ikke unik!
+Der kan være en anden rækkefølge!
+
 ## Anvendelse
 kursus "afhænighed" - kursus x kræver kusus xx\
 ## Virker kun på DAG : Directed acyclic graph
@@ -94,3 +104,5 @@ postorder : Når knuder er færdige indsættes de i postorder.stakken
 .....mangler
 .....
 .....
+
+# Hvordan kan man finde cykler ???????
