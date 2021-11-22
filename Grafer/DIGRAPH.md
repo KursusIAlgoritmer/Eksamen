@@ -4,7 +4,7 @@ Intro til digraph: https://youtu.be/S1xKaQIxMRo \
 digrah api: https://youtu.be/t6Gr8H2DvMI \
 digraph search: https://youtu.be/fCUK6TjBAx0 \
 topological sort: https://youtu.be/ha15d2TWnjI \
-strong components:
+strong components: https://youtu.be/kR165jR0IpQ \
 
 ---
 
@@ -106,3 +106,9 @@ postorder : Når knuder er færdige indsættes de i postorder.stakken
 .....
 
 # Hvordan kan man finde cykler ???????
+
+---
+---
+
+# Strongly Connected Components
+
