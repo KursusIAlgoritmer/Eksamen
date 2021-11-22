@@ -89,7 +89,11 @@ Hvad sker der hvis vægte ikke er unikke - det betyder bare at der er flere MST.
 
 Hvad sker der hvis knuder ikke er forbundne - det betyder vi får en MST skov! ...
 
---- 
+---
+
+# edge weighted graf api 
+
+---
 
 # Kruskal's algorithm
 
