@@ -6,7 +6,7 @@ https://youtu.be/y3uMfjdUZTU
 ***[greedy algorithm](#greedy-algorithm-) :*** \
 https://youtu.be/GFogTNMOICM
 
-***[edge-weighted graf API](#edge-weighted-graf-api) :***
+***[edge-weighted graf API](#edge-weighted-graf-api) :*** \
 https://youtu.be/Sfy4ywbtVIM
 
 ***Kruskal's algorithm :***
@@ -92,6 +92,15 @@ Hvad sker der hvis knuder ikke er forbundne - det betyder vi får en MST skov! .
 ---
 
 # edge weighted graf api 
+
+Vi tilfører en klasse kaldet Edge,- da den nu indeholder en vægt
+Metoder: \
+- Edge(v,w,weight) :
+- either() : et af endeknuder
+- other(v) : den anden af de to endenknuder
+- comparTo(otherEdge) : 
+- weight() 
+
 
 ---
 
