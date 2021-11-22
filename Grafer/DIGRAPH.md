@@ -112,3 +112,21 @@ postorder : Når knuder er færdige indsættes de i postorder.stakken
 
 # Strongly Connected Components
 
+Definition: Sti fra v til w og w til v.
+
+( I en ikke-rettet graf for connected components - skal der være en sti fra v til w )
+
+Man kan bruge DFS.
+
+## Kosaraju-Sharir algortmen
+
+Intuition: \
+Sammensætter strongly-components til knuder - og danner en DAG,- direct asyclic graph.
+Hvis det ikke var en DAG, altså acyklisk, ville vi jo have en mere omfattende strongle-connected-component...
+
+1. Vi laver først "topologisk sorteret stak"
+2. Vi kører DFS på hver enkelt af knuderne i (1) og alle markerede knuder er en komponent!
+
+
+
+
