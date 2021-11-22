@@ -1,18 +1,18 @@
 # MST - Minimum spanning tree
 
-[minimum spanning tree intro](#greedy-algorithm-) :  \
+***[minimum spanning tree intro](#greedy-algorithm-) :***  \
 https://youtu.be/y3uMfjdUZTU
 
-[greedy algorithm](#greedy-algorithm-) : \
+***[greedy algorithm](#greedy-algorithm-) :*** \
 https://youtu.be/GFogTNMOICM
 
-[edge-weighted graf API](#introduktion-til-mst) :
+***[edge-weighted graf API](#introduktion-til-mst) :***
 
-Kruskal's algorithm :
+***Kruskal's algorithm :***
 
-Prim's algorithm :
+***Prim's algorithm :***
 
-context :
+***context :***
 
 ---
 
