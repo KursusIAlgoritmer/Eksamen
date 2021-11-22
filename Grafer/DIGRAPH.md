@@ -75,5 +75,5 @@ strong connected components
 Et andet problem (ikke specielt for rettet graf) : \
 Multiple source shortest path
 
-Metode : indsætter alle 
+Metode : indsætter alle start-knuder i køen!
 
