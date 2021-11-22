@@ -6,7 +6,7 @@ https://youtu.be/y3uMfjdUZTU
 [greedy algorithm](#greedy-algorithm-) : \
 https://youtu.be/GFogTNMOICM
 
-edge-weighted graf API :
+[edge-weighted graf API](#introduktion-til-mst) :
 
 Kruskal's algorithm :
 
