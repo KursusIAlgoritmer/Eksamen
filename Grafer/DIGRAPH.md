@@ -2,7 +2,7 @@
 
 Intro til digraph: https://youtu.be/S1xKaQIxMRo \
 digrah api: https://youtu.be/t6Gr8H2DvMI \
-digraph search: \
+digraph search: https://youtu.be/fCUK6TjBAx0 \
 topological sort: \
 strong components:
 
