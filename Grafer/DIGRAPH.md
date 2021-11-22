@@ -3,7 +3,7 @@
 Intro til digraph: https://youtu.be/S1xKaQIxMRo \
 digrah api: https://youtu.be/t6Gr8H2DvMI \
 digraph search: https://youtu.be/fCUK6TjBAx0 \
-topological sort: \
+topological sort: https://youtu.be/ha15d2TWnjI \
 strong components:
 
 ---
@@ -77,3 +77,20 @@ Multiple source shortest path
 
 Metode : indsætter alle start-knuder i køen!
 
+---
+
+# Topological sort
+tasks presedence constraints 
+## Anvendelse
+kursus "afhænighed" - kursus x kræver kusus xx\
+## Virker kun på DAG : Directed acyclic graph
+
+Kører dfs ??
+
+Ny datastruktur anvendt - en stack til "postorder" ; \
+postorder : Når knuder er færdige indsættes de i postorder.stakken
+
+
+.....mangler
+.....
+.....
