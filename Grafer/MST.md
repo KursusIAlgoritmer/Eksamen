@@ -1,6 +1,6 @@
 # MST - Minimum spanning tree
 
-[minimum spanning tree intro](#greedy-algorithm) : https://youtu.be/y3uMfjdUZTU \
+[minimum spanning tree intro](#greedy-algorithm-) : https://youtu.be/y3uMfjdUZTU \
 greedy algorithm : https://youtu.be/GFogTNMOICM \
 edge-weighted graf API : \
 Kruskal's algorithm : \
