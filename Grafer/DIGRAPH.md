@@ -39,3 +39,41 @@ Nye metoder \
 Der er kun en ændring af koden ift. ikke orienterede grafer er addEdge:
 For ikke orienterede grafer skal en forbindelse/kant til føjes to steder. For en orienteret kun et sted!
 
+---
+
+# DIGRAPH SEARCH  - DFS ...
+
+Vi bruger dfs nøjagtigt på samme måde!
+
+## Anvendelser
+
+Alle program eksekveringer kan betragtes som en orienteret graf \
+Vigtige undersøgelser her er: \
+"Unreachable code" \
+"inifinit loop" \
+
+Garbage Collection : \
+Det er en såkaldt mark-sweep algoritme: \ 
+Vertex er objekter \
+Edge er referencer \
+
+## Anvendelser DFS
+Reachability \
+Path findeing \
+Topological sort \
+Directed cycle detection \
+
+## DFS digraph kan løse svære problemer som
+2-staticfiabliity \
+directed euler path \
+strong connected components 
+
+---
+
+# BFS - exactly same as undirected graph
+
+Et andet problem (ikke specielt for rettet graf) : \
+Multiple source shortest path
+
+Metode : indsætter alle 
+
