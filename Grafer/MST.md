@@ -77,7 +77,10 @@ Dette er en selvmodsigelse - der beviser ovenstående påstand
 
 ### Påstand - the greedy algorithm finder mst
 
-### Bevis:
+### Bevis: ???
+- alle markerede kanter er i mst
+- mindre end V-1 markerede kanter (dvs. færre markerede kanter end knuder ) =>  så er der et cut uden overgang!
+- ???
 
 
 
