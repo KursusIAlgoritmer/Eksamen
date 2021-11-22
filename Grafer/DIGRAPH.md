@@ -118,7 +118,7 @@ Definition: Sti fra v til w og w til v.
 
 Man kan bruge DFS.
 
-## Kosaraju-Sharir algortmen
+## Kosaraju-Sharir algoritmen
 
 Intuition: \
 Sammensætter strongly-components til knuder - og danner en DAG,- direct asyclic graph.
