@@ -82,7 +82,15 @@ Dette er en selvmodsigelse - der beviser ovenstående påstand
 - mindre end V-1 markerede kanter (dvs. færre markerede kanter end knuder ) =>  så er der et cut uden overgang!
 - ???
 
+#
 
+Hvad sker der hvis vægte ikke er unikke - det betyder bare at der er flere MST... 
+
+Hvad sker der hvis knuder ikke er forbundne - det betyder vi får en MST skov! ...
+
+--- 
+
+# Kruskal's algorithm
 
 
 
