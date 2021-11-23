@@ -107,6 +107,27 @@ Metoder: \
 
 # kruskals algorithm
 
+- kanter sorteres i vægtet rækkefølge
+- hver kant fra den mindste, vælges 
+ - hvis kanten laver en cykel ignoreres den
+
+#
+
+### Påstand : 
+Kruskals algoritmen finder MST
+
+### Bevis : 
+Specielt case of greedy algoritme
+- hvis k.a. vælger en kant e = v-w
+- vælg et cut = set af knuder forbundet til v
+- ???
+
+#
+
+### Problem : Hvordan ved man om der er en cykel?
+- kør DFS og se om v er forbundet til w. 
+- anvend union-find
+
 
 
 
