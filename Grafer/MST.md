@@ -9,7 +9,8 @@ https://youtu.be/GFogTNMOICM
 ***[edge-weighted graf API](#edge-weighted-graf-api) :*** \
 https://youtu.be/Sfy4ywbtVIM
 
-***Kruskal's algorithm :***
+***[Kruskal's algorithm](#kruskals-algorithm)*** \
+https://youtu.be/_Pdp9lVAmpk
 
 ***Prim's algorithm :***
 
@@ -104,7 +105,7 @@ Metoder: \
 
 ---
 
-# Kruskal's algorithm
+# kruskals algorithm
 
 
 
