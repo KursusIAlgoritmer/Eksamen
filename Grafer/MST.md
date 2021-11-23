@@ -127,6 +127,21 @@ Specielt case of greedy algoritme
 ### Problem : Hvordan ved man om der er en cykel?
 - kør DFS og se om v er forbundet til w. 
 - anvend union-find
+  - der bygges en union-find der bruges til at tjekke om knuderne er i samme komponent
+
+
+# 
+
+### Implementation
+- Anvender priority queue til at vælge den mindste 
+- Anvender union-find til at tjekke om knuderne er i samme kmponent
+
+#
+
+### Runing time E*log(E) ...
+
+
+
 
 
 
