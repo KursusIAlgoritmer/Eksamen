@@ -140,8 +140,17 @@ Specielt case of greedy algoritme
 
 ### Runing time E*log(E) ...
 
+---
 
+# prims algoritme - finder MST
 
+- markerer kortest kant på en knude
+- markerer kortest kant på træ af markerede knuder 
+- gebtag linjen ovenfor
+
+#
+
+## Optimering - hvis markerede træ er en proritetskø
 
 
 
