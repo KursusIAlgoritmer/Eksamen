@@ -30,7 +30,12 @@ A 1 1 3 1 5 1
 B 0 2 0 4 0 4
 C 0 0 0 0 0 6
 </pre>
-Systematisk konstruktions process
+
+---
+
+## Systematisk konstruktions process af DFA ??
+
+
 
 ---
 
