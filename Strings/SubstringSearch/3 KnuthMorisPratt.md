@@ -23,11 +23,11 @@ KMP vs Brute Force, pointer never decrements
 ## hvordan opbygges den nødvendige DFA - Difinit finite state automaton
 
 Seatching for ABABAC
-
+<pre>
   0 1 2 3 4 5
   A B A B A C
 A 1 1 3 1 5 1
 B 0 2 0 4 0 4
 C 0 0 0 0 0 6
-
+</pre>
 Systematisk konstruktions process
