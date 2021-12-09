@@ -31,3 +31,10 @@ B 0 2 0 4 0 4
 C 0 0 0 0 0 6
 </pre>
 Systematisk konstruktions process
+
+---
+
+## Tidskompleksitet
+
+- Konstruktion af DFA tager R*M hvor R er radix og M er substreng længden
+- Søgning tager derimod højest N + M hvor N er den streng der søges i
