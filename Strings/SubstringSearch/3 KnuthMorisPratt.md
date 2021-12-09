@@ -35,6 +35,10 @@ C 0 0 0 0 0 6
 
 ## Systematisk konstruktions process af DFA ??
 
+Time 17:09
+
+https://youtu.be/J_b3uhkZK2Q
+
 
 
 ---
